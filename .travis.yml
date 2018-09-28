@@ -10,7 +10,7 @@ notifications:
   email: never
 
 install:
-  - pip install pytest pytest-cov
+  - pip install pytest pytest-cov codecov
 
 env:
   - CODECOV_TOKEN="4d00e3f3-dcd0-4e7b-ba6d-e2a5eae2c59f"  #get token from https://codecov.io/ --> add new repository
