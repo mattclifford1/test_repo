@@ -17,7 +17,7 @@ env:
 
 script:
   - pytest --cov=./ --cov-report xml
-  - coverage run dummy_test.py
+  # - coverage run dummy_test.py
 
 after_success:
   - codecov   # go to https://codecov.io/ to see report (have to log in with github)
