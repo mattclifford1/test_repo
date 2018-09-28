@@ -13,7 +13,7 @@ install:
   - pip install pytest pytest-cov
 
 env:
-  - CODECOV_TOKEN="3b343171-4511-44bd-a4d6-dd7d64aef700"  #get token from https://codecov.io/ --> add new repository
+  - CODECOV_TOKEN="4d00e3f3-dcd0-4e7b-ba6d-e2a5eae2c59f"  #get token from https://codecov.io/ --> add new repository
 
 script:
   - pytest --cov=./ --cov-report xml
